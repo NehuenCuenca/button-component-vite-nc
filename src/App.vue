@@ -6,46 +6,39 @@
       <ul class="buttons-styles-list" id="default">
         <li class="button-style-item">
           <span class="style-name">Button</span>
-          <!-- <Button :stylesClasses="['default']" /> -->
-          <Button class="default" />
+          <Button class="default borderless b-round-6 shadow"/>
         </li>
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['default', 'on-hover', 'on-focus']" /> -->
-          <Button class="default on-hover on-focus" />
+          <Button class="default borderless b-round-6 shadow on-hover on-focus" />
         </li>
       </ul>
 
       <ul class="buttons-styles-list" id="outline">
         <li class="button-style-item">
           <span class="style-name">Outline</span>
-          <!-- <Button :stylesClasses="['outline']" /> -->
-          <Button class="outline" />
+          <Button class="outline borderless b-round-6" />
         </li>
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['outline', 'on-hover', 'on-focus']" /> -->
-          <Button class="outline on-hover on-focus" />
+          <Button class="outline borderless b-round-6 on-hover on-focus" />
         </li>
       </ul>
 
       <ul class="buttons-styles-list" id="text">
         <li class="button-style-item">
           <span class="style-name">Text</span>
-          <!-- <Button :stylesClasses="['only-text']" /> -->
-          <Button class="only-text" />
+          <Button class="only-text bg-transparent borderless b-round-6" />
         </li>
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['only-text', 'on-hover', 'on-focus']" /> -->
-          <Button class="only-text on-hover on-focus" />
+          <Button class="only-text bg-transparent borderless b-round-6 on-hover on-focus" />
         </li>
       </ul>
 
       <ul class="buttons-styles-list" id="disable-shadow">
         <li class="button-style-item">
           <span class="style-name">Disable shadow</span>
-          <!-- <Button :stylesClasses="['disable-shadow']" /> -->
           <Button class="disable-shadow" />
         </li>
       </ul>
@@ -53,25 +46,21 @@
       <ul class="buttons-styles-list" id="disabled">
         <li class="button-style-item">
           <span class="style-name">Disabled</span>
-          <!-- <Button :stylesClasses="['disabled']" /> -->
-          <Button class="disabled" />
+          <Button class="disabled borderless" />
         </li>
         <li class="button-style-item">
           <span class="style-name">Disabled only text</span>
-          <!-- <Button :stylesClasses="['disabled', 'only-text']" /> -->
-          <Button class="disabled only-text" />
+          <Button class="disabled borderless only-text" />
         </li>
       </ul>
 
       <ul class="buttons-styles-list" id="with-icon">
         <li class="button-style-item">
           <span class="style-name">Start icon</span>
-          <!-- <Button :stylesClasses="['w-icon', 'startIcon']" :icon="'shopping_cart'" /> -->
           <Button class="w-icon startIcon" :icon="'🛒'" />
         </li>
         <li class="button-style-item">
           <span class="style-name">End icon</span>
-          <!-- <Button :stylesClasses="['w-icon', 'endIcon']" :icon="'shopping_cart'" /> -->
           <Button class="w-icon endIcon" :icon="'🛒'" />
         </li>
       </ul>
@@ -79,19 +68,16 @@
       <ul class="buttons-styles-list" id="sizes-buttons">
         <li class="button-style-item">
           <span class="style-name">Size small</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-primary', 'borderless', 'b-round-6', 'txt-white']" /> -->
           <Button class="s-sm bg-primary borderless b-round-6 txt-white" />
         </li>
 
         <li class="button-style-item">
           <span class="style-name">Size medium</span>
-          <!-- <Button :stylesClasses="['s-md', 'bg-primary', 'borderless', 'b-round-6', 'txt-white']" /> -->
           <Button class="s-md bg-primary borderless b-round-6 txt-white" />
         </li>
 
         <li class="button-style-item">
           <span class="style-name">Size large</span>
-          <!-- <Button :stylesClasses="['s-lg', 'bg-primary', 'borderless', 'b-round-6', 'txt-white']" /> -->
           <Button class="s-lg bg-primary borderless b-round-6 txt-white" />
         </li>
       </ul>
@@ -99,22 +85,18 @@
       <ul class="buttons-styles-list" id="colors-buttons">
         <li class="button-style-item">
           <span class="style-name">Color default</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-default', 'borderless', 'b-round-6', 'txt-dark']" /> -->
           <Button class="s-sm bg-default borderless b-round-6 txt-dark" />
         </li>
         <li class="button-style-item">
           <span class="style-name">Color primary</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-primary', 'borderless', 'b-round-6', 'txt-white']" /> -->
           <Button class="s-sm bg-primary borderless b-round-6 txt-white" />
         </li>
         <li class="button-style-item">
           <span class="style-name">Color secondary</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-secondary', 'borderless', 'b-round-6', 'txt-white']" /> -->
           <Button class="s-sm bg-secondary borderless b-round-6 txt-white" />
         </li>
         <li class="button-style-item">
           <span class="style-name">Color danger</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-danger', 'borderless', 'b-round-6', 'txt-white']" /> -->
           <Button class="s-sm bg-danger borderless b-round-6 txt-white" />
         </li>
       </ul>
@@ -122,22 +104,18 @@
       <ul class="buttons-styles-list" id="colors-buttons-hover-and-focus">
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-default', 'borderless', 'b-round-6', 'txt-dark', 'on-focus' -->
           <Button class="s-sm bg-default borderless b-round-6 txt-dark on-focus on-hover" />
         </li>
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-primary', 'borderless', 'b-round-6', 'txt-white', 'on-focus' -->
           <Button class="s-sm bg-primary borderless b-round-6 txt-white on-focus on-hover" />
         </li>
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-secondary', 'borderless', 'b-round-6', 'txt-white', 'on-focus' -->
           <Button class="s-sm bg-secondary borderless  b-round-6 txt-white on-focus on-hover" />
         </li>
         <li class="button-style-item">
           <span class="style-name">&:hover, &:focus</span>
-          <!-- <Button :stylesClasses="['s-sm', 'bg-danger', 'borderless', 'b-round-6', 'txt-white', 'on-focus' -->
           <Button class="s-sm bg-danger borderless b-round-6 txt-white on-focus on-hover" />
         </li>
       </ul>

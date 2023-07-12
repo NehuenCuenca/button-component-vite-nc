@@ -1,5 +1,4 @@
 <template>
-    <!-- <button :class="stylesClasses"> -->
     <button>
         <i v-if="icon" class="material-symbols-outlined"> {{ icon }} </i>
         Default
@@ -10,10 +9,6 @@
 export default {
     name: 'Button',
     props: {
-        /*'stylesClasses': {
-            type: Array,
-            required: false,
-        },*/
         'icon': {
             type: String,
             required: false,
@@ -35,10 +30,7 @@ button {
 .default {
     width: 81px;
     height: 36px;
-    border-radius: 6px;
     background-color: #E0E0E0;
-    box-shadow: 0px 2px 3px 0px #33333333;
-    border: none;
 }
 
 .default:hover,
@@ -52,7 +44,6 @@ button {
 .outline {
     width: 88px;
     height: 36px;
-    border-radius: 6px;
     border: 1px solid #3D5AFE;
     color: #3D5AFE;
 }
@@ -67,10 +58,7 @@ button {
 .only-text {
     width: 88px;
     height: 36px;
-    border-radius: 6px;
-    border: none;
     color: #3D5AFE;
-    background-color: transparent;
 }
 
 .only-text:hover,
@@ -96,7 +84,6 @@ button {
     border-radius: 6px;
     background-color: #E0E0E0;
     color: #9E9E9E;
-    border: none;
 }
 
 .disabled.only-text {
@@ -165,6 +152,9 @@ i {
     color: #3F3F3F;
 }
 
+.bg-transparent {
+    background-color: transparent;
+}
 .bg-default {
     background-color: #E0E0E0;
 }
