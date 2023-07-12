@@ -162,59 +162,7 @@ export default {
 </script>
 
 <style>
-/* https://www.figma.com/file/vfMDJhGGnqfaskO2aud06o/button-component?type=design&node-id=0-1&mode=design&t=gyfaXXPlybvzVyxK-0 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap');
-
-/* 
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Ubuntu Mono', monospace;
-*/
-
-
-:root {
-  --GrayTitle: #333333;
-  --GraySubTitle: #4F4F4F;
-  --GrayContent: #828282;
-  --GrayContentSoft: #C4C4C4;
-  --BlueContrast: #2F80ED;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-body {
-  height: auto;
-}
 
 #app {
   width: 100%;
